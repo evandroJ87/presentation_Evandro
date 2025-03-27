@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evandro José</title>
+</head>
+<body>
+    <section class="banner" id ="sec">
+        <header>
+        <a href="#" class="logo"> Logo </a>
+        <div id = "toggle" onClick ="toggle()"></div>
+      </header>
+      <div class="content">
+        <h2>Hello World,<br>
+        <span>Im Evandro</span>
+        </h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+        <a href ="#">Saiba mais</a>
+        </div>
+
+        <ul class="sci">
+          <li><a href="https://www.linkedin.com/in/evandro-josé-2622911a9/"><img src="./img/linkedin.png"/></a></li>
+        </ul>
+        
+      </section>
+        <div id="navigation">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Sobre mim</a></li>
+        <li><a href="#">Portfólio</a></li>
+        <li><a href="#">Contato</a></li>
+    </ul>
+    </div>
+    <script type="text/javascript">
+    function toggle(){
+        var sec= document.getElementById('sec');
+        var nav= document.getElementById('navigation');
+        sec.classList.toggle('active');
+        nav.classList.toggle('active');
+      }
+    </script>
+</body>
+</html>
